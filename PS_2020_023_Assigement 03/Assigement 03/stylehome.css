@@ -1,0 +1,261 @@
+body{
+	font-family:Arial,san-serif;
+	margin:0;
+	padding:0;
+	color:#333;
+	background:#f4f4f4;padding-top: 5px;
+	
+}
+header {
+    background: #fff;
+    padding:5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .logo span {
+    color: #c0c0c0;
+}
+.logo{
+	width: 166px; 
+    height: 64px;
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 55px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    position: relative;
+	font-family: Arial, sans-serif; 
+	font-size:20px
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    color: E090AD;
+}
+
+nav ul li a.active::after {
+   content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background: black;
+    display: block; 
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.search-box input[type="text"] {
+    border: none;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.search-box button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.header-content{
+    background-image: url('az.jpg');
+    background-size: cover;
+    background-position: center;
+    height:667px;
+	color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content h1 {
+	font-family:sans-serif;
+    color:FFFFFF;
+    font-size: 45px;
+    font-weight: bold;
+    padding-bottom:300px;
+    text-align: left;          
+    padding-left:500px;
+}
+.subscribe-form button {
+    padding:15px 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+	font-size:20px;
+	
+}
+.subscribe-form input{
+	padding:10px 30px;
+	color:D9D9D9;
+	font-size:20px;
+	border:none;
+	border-radius: 10px;
+}
+.welcome-section h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 10px;
+	font-family: cursive;
+}
+
+.column-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.column {
+	
+    flex: 1; /* Each column takes equal width */
+    padding: 0 15px; /* Spacing between columns */
+    text-align: justify;
+}
+
+.column p {
+    background: none;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Soft shadow for each paragraph block */
+	font-family :cursive;
+	font-size: 20px;
+	font-weight:bold;
+}
+.container {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  gap: 10px;
+  
+}
+
+.column1 {
+  flex: 1;
+  background-color: D9D9D9;
+  margin-bottom:30px;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  background-color: E090AD;
+}
+
+.upper-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  height:150px
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+    
+}
+
+
+
+.logo img {
+  height: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  
+ 
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.social-icons a {
+  margin-left: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.lower-footer {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8em;
+  height:50px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.adobe{
+	align-items: center;
+   background: rgba(255, 255, 255, 0.2);
+  height:250px;
+  border-radius: 10px;
+  padding: 20px 45px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  
+}
+.Blog{
+	 font-family: Arial, sans-serif; 
+    font-size: 24px; 
+    color: black; 
+    padding: 10px 20px; 
+   
+}
